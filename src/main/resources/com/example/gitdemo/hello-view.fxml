@@ -3,15 +3,24 @@
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: magenta;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="com.example.gitdemo.HelloController">
+<VBox alignment="CENTER" prefHeight="531.0" prefWidth="307.0" spacing="20.0" style="-fx-background-color: navy blue;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo16.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <Label text="Pandan G" textFill="WHITE" />
-   <TextField />
-   <PasswordField />
+    <Label text="Login" textFill="WHITE" translateY="50.0">
+        <font>
+            <Font size="36.0" />
+        </font></Label>
 
-    <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" text="Hello!" />
+    <Label fx:id="welcomeText" prefHeight="17.0" prefWidth="245.0" text="Please enter your login and you password" textFill="#fcfcfc" translateX="3.0" translateY="30.0" />
+    <Button onAction="#onHelloButtonClick" prefHeight="25.0" prefWidth="268.0" scaleZ="-100.0" text="Login" translateY="160.0" />
+    <TextField promptText="Username or email" translateY="1.0" />
+    <TextField promptText="Password" translateY="1.0" />
+    <Label prefHeight="17.0" prefWidth="128.0" scaleZ="10.0" text="Forgot password ?" textFill="#fffefe" translateX="90.0" translateZ="10.0" />
+    <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="274.0" text="Or sign-in with Google " translateY="50.0" />
+    <Label scaleZ="10.0" text="register" translateX="70.0" translateY="50.0" />
+    <Label prefHeight="17.0" prefWidth="110.0" text="Not a member yet?" textFill="WHITE" translateY="13.0" />
+    <Region prefHeight="200.0" prefWidth="200.0" />
 </VBox>
