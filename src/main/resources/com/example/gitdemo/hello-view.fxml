@@ -9,7 +9,7 @@
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-    <Label text="Login" textFill="WHITE" translateY="50.0">
+    <Label text="Logjin" textFill="WHITE" translateY="50.0">
         <font>
             <Font size="36.0" />
         </font></Label>
